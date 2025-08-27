@@ -4,7 +4,7 @@ const TestApi = () => {
   const [msg, setMsg] = useState("");
   useEffect(() => {
     axios
-      .get("http://localhost:5000/admin/login")
+      .get("http://localhost:5000/api/test")
       .then((res) => {
         setMsg(res.data.message);
       })
