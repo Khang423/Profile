@@ -6,6 +6,6 @@ import UserList from './UserList.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UserList />
+    <App />
   </StrictMode>,
 )

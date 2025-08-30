@@ -1,16 +1,17 @@
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
+import { BrowserRouter, useRoutes } from "react-router-dom";
+import { appRoutes } from "./routes/ApprRoutes";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+const AppRoutesWrapper = () => {
+  return useRoutes(appRoutes);
+};
 
-export default function App() {
+const App = () => {
   return (
-    <div className="flex flex-col min-h-screen w-full ">
-      <Header />
-      <div className="flex flex-1">
-        <Sidebar />
-        <main className="p-4 flex-1">This is the main content</main>;
-      </div>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <AppRoutesWrapper />
+      <ToastContainer position="top-right" autoClose={3000} />
+    </BrowserRouter>
   );
-}
+};
+export default App;
