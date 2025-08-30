@@ -2,6 +2,7 @@ import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import UserList from "../UserList";
 import PrivateRoute from "../components/PrivateRoute";
+import Account from "../pages/Account";
 
 export const appRoutes = [
   {
@@ -13,6 +14,14 @@ export const appRoutes = [
     element: (
       <PrivateRoute>
         <Dashboard />
+      </PrivateRoute>
+    ),
+  },
+  {
+    path: "/admin/account",
+    element: (
+      <PrivateRoute>
+        <Account />
       </PrivateRoute>
     ),
   },
