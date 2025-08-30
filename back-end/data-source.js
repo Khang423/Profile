@@ -13,5 +13,4 @@ const AppDataSource = new DataSource({
   migrations: ["src/migration/*.js"],
 });
 
-
 module.exports = { AppDataSource };
