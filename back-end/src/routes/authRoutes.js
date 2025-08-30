@@ -10,4 +10,5 @@ router.post(
   validateMiddleware,
   authController.login
 );
+
 module.exports = router;
