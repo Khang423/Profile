@@ -2,11 +2,11 @@ import { Button, Flex } from "antd";
 const SidebarItem = [
   {
     name: "Dashboard",
-    link: "/dashboard",
+    link: "/admin/dashboard",
   },
   {
     name: "Account",
-    link: "/account",
+    link: "/admin/account",
   },
   {
     name: "Profile",
