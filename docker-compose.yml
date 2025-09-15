@@ -1,0 +1,39 @@
+version: "3.9"
+services:
+  backend:
+    build: ./back-end
+    container_name: backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./back-end:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+
+  frontend:
+    build: ./front-end
+    container_name: frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./front-end:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+  db:
+    image: mysql:8.0
+    container_name: profile-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: profile
+      MYSQL_USER: AzenDev
+      MYSQL_PASSWORD: 4223
+    ports:
+      - "3308:3306" # host:container
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
