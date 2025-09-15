@@ -5,55 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078fa3d7-a7a8-4fe1-ab65-6b484cca1367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/OusideLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/data-source.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data-source.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/config/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/controller/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/authController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/entity/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/entity/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/middleware/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/authMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/middleware/validateMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/validateMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/migration/1756276668861-CreateUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/migration/1756276668861-CreateUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/routes/adminRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/authRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/userRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/validation/loginValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/validation/loginValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/public/ktech-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/ktech-dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/vite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/UserList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/UserList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/api/authApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/authApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/api/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/userApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/PrivateRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/PrivateRoute.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/layouts/AdminLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layouts/AdminLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/layouts/OusideLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/adminRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Account.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Account.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/routes/AppRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/AppRoutes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/routes/ApprRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/ApprRoutes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/services/httpClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/httpClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +30,31 @@
     }
   ]
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="azendev" />
+                    <option name="lastUsedInstant" value="1757958695" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1757958694" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Khang423/Profile.git&quot;,
@@ -101,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "azendev",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/azendev/Project/Profile",
@@ -162,7 +140,7 @@
       <workItem from="1757670015925" duration="116000" />
       <workItem from="1757665446159" duration="72000" />
       <workItem from="1757665554509" duration="35000" />
-      <workItem from="1757957205268" duration="1392000" />
+      <workItem from="1757957205268" duration="1908000" />
     </task>
     <servers />
   </component>
