@@ -1,0 +1,13 @@
+# Node.js dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+.env
