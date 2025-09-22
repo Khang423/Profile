@@ -1,10 +1,15 @@
-import Login from "../pages/Login";
-import Dashboard from "../pages/Dashboard";
+import Login from "../pages/auth/Login";
+import Dashboard from "../pages/admin/Dashboard";
 import UserList from "../UserList";
 import PrivateRoute from "../components/PrivateRoute";
-import Account from "../pages/Account";
+import Account from "../pages/admin/Account";
+import Home from "../pages/user/Home";
 
 export const appRoutes = [
+  {
+    path: "/",
+    element: <Home />,
+  },
   {
     path: "/admin/login",
     element: <Login />,
